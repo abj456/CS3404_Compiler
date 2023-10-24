@@ -1,0 +1,29 @@
+// this is a comment
+char a = 'i';
+/*	  	 this
+is
+ 	 a
+comment	  	   	
+	  */
+/*this
+is
+#pragma source off
+a
+comment
+*/
+char a = 'i';
+#pragma source off
+/*this
+is
+a
+comment*/
+char a = 'i';
+#pragma source on
+/*this
+is
+a
+comment*/
+/*this
+is
+a
+comment*/char a = 'i';

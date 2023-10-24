@@ -1,0 +1,8 @@
+char t = '\?';
+char t = '\\';
+char t = '\f';
+char t = '\xfff';
+char t = '\ufAaF';
+char t = '\U0921aBDc';
+char s1 = "string1"; char s2 = "string2";
+"s1""s2"

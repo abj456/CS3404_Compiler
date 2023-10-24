@@ -1,0 +1,2 @@
+/*this is comment*/int a = 35;
+

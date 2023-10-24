@@ -1,0 +1,58 @@
+1:#pragma token    on
+2:#pragma source	 on 
+#string:"#pragma 	source	off"
+3:"#pragma 	source	off"
+#id:rin
+#op:=
+#id:abcd
+#integer:+1
+#punc:;
+#key:double
+#key:int
+#punc:;
+#id:a
+#op:=
+#integer:5
+#punc:;
+#integer:1
+#integer:2
+#integer:3
+#integer:4
+#char:'1'
+#string:"\""
+#string:"\\"
+#string:"\234"
+#string:"\n"
+#string:"\'"
+#string:"sdlfkjweklr\\"
+9:#pragma source 				on 
+#key:int
+#id:tmp
+#punc:;
+#string:"ddddd"
+10:int tmp	  ;   "ddddd"
+#key:int
+#id:a
+#punc:;
+#string:"123"
+#char:'a'
+#char:'$'
+#char:'\n'
+11:int a; "123" 'a' '$' '\n' 
+12:#pragma token	 off
+13:int a;
+14:int b; ddddddd int5 5int56int>= == =
+15:
+16:#pragma token						on
+#id:in
+#id:t
+#integer:1
+#id:fake
+#float:112.5
+#float:-12.65
+#float:+6.5
+#integer:5555
+#char:'t'
+17:in t 1 fake 112.5 -12.65 +6.5 5555 't' /*fdf  
+18:					 *dfdf//  dfkjkldaj 12312 4t4-0toq34 dd*/
+19:                     

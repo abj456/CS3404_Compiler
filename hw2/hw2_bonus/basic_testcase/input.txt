@@ -1,0 +1,6 @@
+char4 a = 0, b = 10;
+char4 c = a + (a * b) - b;
+int d = c;
+char8 e = 0, f = 10;
+char8 g = (e * f) + e - f;
+long h = g;

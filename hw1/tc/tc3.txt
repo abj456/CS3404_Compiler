@@ -1,0 +1,15 @@
+int int_max = INT_MAX;
+int int_min = INT_MIN;
+return MAX(int_max, int_min);
+
+float f1 = -0.;
+float f2 = a1 -1.;
+
+int i1 = -0;
+int i2 = i1 -1;
+
+char s1[] = "string1";
+char s2[] = "string2";
+char s3[50];
+strcat(s3, s1);
+
